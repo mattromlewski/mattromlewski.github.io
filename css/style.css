@@ -1,0 +1,21 @@
+body{
+
+    background-color: #C1C1C1;
+}
+
+#myname {
+    font-size: 1em;
+}
+
+#homeBar{
+    background-color: #212830;
+}
+
+#lefttext{
+    text-align: center;
+}
+
+/*#logo {
+    width: 40%;
+    height: 40%;
+}*/
