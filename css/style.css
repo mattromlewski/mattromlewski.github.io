@@ -7,10 +7,49 @@ body{
     font-size: 1em;
 }
 
-#homeBar{
+.homeBar{
     background-color: #212830;
 }
 
 #lefttext{
     text-align: center;
+}
+
+.badge-light{
+    background-color: rgba(96, 173, 209, 0.34);
+    padding: 3px 9px 3px;
+    font-size: 14px;
+    font-weight: 300;
+    
+    font-family: Roboto,sans-serif;
+    white-space: nowrap;
+    color: #000000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+.badge-job{
+    background-color: rgba(167, 225, 252, 0.34);
+    padding: 3px 9px 3px;
+    font-size: 16px;
+    font-weight: 300;
+    
+    font-family: Roboto,sans-serif;
+    white-space: nowrap;
+    color: #000000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+.paddedIMG{
+    padding: 5px 5px;
+}
+
+
+.paddedIMG-heavy{
+    padding: 20px 20px;
 }
