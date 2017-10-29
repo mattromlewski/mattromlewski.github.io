@@ -7,6 +7,27 @@ body{
     font-size: 1em;
 }
 
+.spaced{
+    
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-between;
+}
+
+#resume{
+    text-align: right;
+
+}
+
+.btn-resume{
+    vertical-align: middle;
+    font-size: 11px;
+    padding:6px 4px 4px 4px ;
+    margin: 0px 0px 11.25px 0px;
+
+}
+
 .homeBar{
     background-color: #212830;
 }
@@ -24,6 +45,21 @@ body{
     font-family: Roboto,sans-serif;
     white-space: nowrap;
     color: #000000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+.badge-light-link{
+    background-color: rgba(96, 173, 209, 0.34);
+    padding: 3px 9px 3px;
+    font-size: 14px;
+    font-weight: 300;
+    
+    font-family: Roboto,sans-serif;
+    white-space: nowrap;
+    color: #1900ff;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
